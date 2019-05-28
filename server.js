@@ -4,7 +4,7 @@ var url = require('url')
 var port = process.argv[2]
 
 if(!port){
-  console.log('请指定端口号\n 比如:node server.js 8888 ')
+  console.log('请指定端口号\n 比如: node server.js 8888 ')
   process.exit(1)
 }
 
